@@ -27,6 +27,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @AutoConfigureTestDatabase(connection = EmbeddedDatabaseConnection.H2)
 @ComponentScan("ru.sergey_gusarov.hw7_8")
 class BookRepositoryJdbcTest {
+    // new test
     private final static String COMMENT_FOR_ADD_1 = "comment1";
 
     @Autowired
